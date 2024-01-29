@@ -156,6 +156,7 @@ DML(Data Manipulation Lang. 데이터 조작어, 데이터 관리어)
 */
 
 
+SELECT * FROM tbl_student;
 
 
 
