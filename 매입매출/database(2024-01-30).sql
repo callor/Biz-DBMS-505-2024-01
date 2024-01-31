@@ -210,9 +210,29 @@ ORDER BY 매입합산 DESC, 매출합산 DESC;
 
 -- 매입매출 데이터에서 매입항목(io_div = 1)만 SELECT 하여
 -- 상품코드, 상품명, 매입합계를 출력
-SELECT io_div
+SELECT io_div,
 SUM(io_quan * io_iprice) AS 매입합산,
 SUM(io_quan * io_oprice) AS 매출합산
 FROM view_iolist
+GROUP BY io_div
+HAVING io_div = '1';
+
+SELECT io_div,
+SUM(io_quan * io_iprice) AS 매입합산,
+SUM(io_quan * io_oprice) AS 매출합산
+FROM view_iolist
+WHERE io_div = '1'
+GROUP BY io_div;
+
+CREATE TABLE tbl_members (
+	m_username	VARCHAR(15)		PRIMARY KEY,
+	m_password	VARCHAR(125)	NOT NULL,	
+	m_realname	VARCHAR(20),		
+	m_tel	VARCHAR(15),		
+	m_role	VARCHAR(5)		
+);
+
+
+
 
 
