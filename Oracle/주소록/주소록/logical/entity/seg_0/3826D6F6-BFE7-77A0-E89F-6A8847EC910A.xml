@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3826D6F6-BFE7-77A0-E89F-6A8847EC910A" name="TBL HOBBY">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>C1A95B88-2235-4F27-23EA-404E6AE1F1BD</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="H CODE" id="7D030755-019C-5206-E010-83B7FCC9B2AC">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>CC4F4386-7355-FB71-FE18-8A58792FFA47</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="H NAME" id="46A5ABEE-53DD-2366-63DA-BAE635126A0C">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>75ECF396-5744-7E30-31C3-12A448802B43</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="H REM" id="FF47792C-7F68-13FA-F558-F8AADC21D455">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>32BE8333-FC16-405B-12CD-0440A5B2BE2D</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>125 BYTE</dataTypeSize>
+<ownDataTypeParameters>125 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="657FAF06-6081-7B85-03A8-DC7F90910F4E" name="TBL HOBBY PK">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>15402CAD-973E-7EB0-8E72-B7000D4B2B8A</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D030755-019C-5206-E010-83B7FCC9B2AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

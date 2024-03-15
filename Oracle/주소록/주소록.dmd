@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="주소록" id="7E3D223A-FA6E-1979-34FC-E07983BF1806" version="3.5">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:05:39 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7E3D223A-FA6E-1979-34FC-E07983BF1806</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A16DFF70-760C-E23C-BEFF-10ACB5361057">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

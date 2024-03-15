@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1A95B88-2235-4F27-23EA-404E6AE1F1BD" schemaObject="168C566E-2437-4F96-0B30-CAB6E62EE4C6" name="TBL_HOBBY">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<importedID>165E89FA-868E-5392-00CB-47B4473481A0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="H_CODE" id="CC4F4386-7355-FB71-FE18-8A58792FFA47">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<importedID>FAB75C79-0DDD-C945-B860-14C578A983F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="H_NAME" id="75ECF396-5744-7E30-31C3-12A448802B43">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<importedID>2842019A-6305-2066-7186-19E18C46DD7D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="H_REM" id="32BE8333-FC16-405B-12CD-0440A5B2BE2D">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<importedID>E62B12DF-2ED9-F228-E880-610995AC39A1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>125 BYTE</dataTypeSize>
+<ownDataTypeParameters>125 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15402CAD-973E-7EB0-8E72-B7000D4B2B8A" schemaObject="168C566E-2437-4F96-0B30-CAB6E62EE4C6" name="TBL_HOBBY_PK">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<importedID>B661129D-6217-D846-3E61-AF3766C038CB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC4F4386-7355-FB71-FE18-8A58792FFA47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

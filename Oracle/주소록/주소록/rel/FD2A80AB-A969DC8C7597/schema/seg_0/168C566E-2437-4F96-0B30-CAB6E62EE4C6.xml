@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="ADDRUSER" directorySegmentName="seg_0" id="168C566E-2437-4F96-0B30-CAB6E62EE4C6">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<importedID>8F120FA9-49E7-66C3-73D3-4EC4313380C6</importedID>
+</SchemaObject>

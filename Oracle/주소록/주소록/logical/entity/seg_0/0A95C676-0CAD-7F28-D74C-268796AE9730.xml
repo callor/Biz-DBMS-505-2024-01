@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A95C676-0CAD-7F28-D74C-268796AE9730" name="TBL ADDRESS">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>97BFDFBB-D170-A52B-3AEA-621EFB0B9775</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="A CODE" id="60FAB8D7-7F86-BC32-B9D7-74D3FBFB46AA">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>A9115320-BD5D-6F5C-4872-BE588F6301BB</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A NAME" id="FDF88939-2574-176B-38E2-7091A8E7AF7E">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>C65A2609-DA23-BCCC-B7C9-84C7D5045044</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A TEL" id="57F4AF09-6A74-DDB5-5D37-65F706917F5C">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>35A4E624-251C-BA5E-208C-43A7FF1FC579</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A ADDR" id="71A427BE-131F-3AB6-39A0-ECE8EA1AF988">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>D7E6B96F-03F5-69B4-CEBB-7D7CE2037605</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>125</dataTypeSize>
+<ownDataTypeParameters>125,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A HOBBY1" id="685E8727-630F-DD57-2E51-B5DF53A7E18B">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>54863E12-42AE-D23E-2B76-5FA6AA9CD9E8</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A HOBBY2" id="FEEFF51F-9CE1-EE57-11A8-3CFA7963E969">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>E24A5190-3BCF-9291-C0CF-1418159B0D22</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A HOBBY3" id="9198019B-5AB3-A8BC-CAE3-0DD9BBE199A9">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>613887FB-F4BC-B138-04BB-32D7E2FB7D02</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99AE6E56-B9F3-B49C-EB9A-A166104AFAA1" name="TBL ADDRESS PK">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>0C34571F-7E10-6AD0-3AC5-A00024E1E190</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60FAB8D7-7F86-BC32-B9D7-74D3FBFB46AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

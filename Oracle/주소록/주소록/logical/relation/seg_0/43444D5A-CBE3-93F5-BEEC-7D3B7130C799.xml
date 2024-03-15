@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ADDR" directorySegmentName="seg_0" id="43444D5A-CBE3-93F5-BEEC-7D3B7130C799">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>5BC915CA-D07D-4060-79AA-0A1D7E64F7F9</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<sourcePk>99AE6E56-B9F3-B49C-EB9A-A166104AFAA1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A95C676-0CAD-7F28-D74C-268796AE9730</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9CB2FB2-9B03-FC32-F703-8539D1E975C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

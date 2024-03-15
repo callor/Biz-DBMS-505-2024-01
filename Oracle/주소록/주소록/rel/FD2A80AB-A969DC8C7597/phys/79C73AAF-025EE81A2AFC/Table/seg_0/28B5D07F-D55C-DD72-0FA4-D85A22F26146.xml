@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TBL_ADDR_HOBBY" directorySegmentName="seg_0" id="28B5D07F-D55C-DD72-0FA4-D85A22F26146">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<schemaObject>168C566E-2437-4F96-0B30-CAB6E62EE4C6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DA7DD791-71F6-CF85-891D-DD5F055FDDE0</segment>
+<tableSpace>9FC06E25-5DAF-BE93-AA37-C97608AB4BE1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="R_ACODE" id="11A59AB1-C77D-07F4-D28C-AB05B804DD6C">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="R_HCODE" id="E4F7E557-4A39-E2B2-884F-2C2A35663D63">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="AH_PK" id="B5E3DDBC-639C-E3DA-61C6-46CFCDBAA386">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<schemaObject>168C566E-2437-4F96-0B30-CAB6E62EE4C6</schemaObject>
+<segment>6CF89F31-1E29-9F32-8EE3-FB7C3E8B88BF</segment>
+<tableSpace>9FC06E25-5DAF-BE93-AA37-C97608AB4BE1</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ADDR" id="9B1C6408-3125-9136-F70E-228A187D4F0E">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_HOBBY" id="E5B1B0CB-3FC4-EC26-7ECE-24A5BF66F3F0">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AH_PK" id="E4B67F55-27CB-80A0-FF15-CFAD7C78F780">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:22:30 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<segment>6CF89F31-1E29-9F32-8EE3-FB7C3E8B88BF</segment>
+<tableSpace>9FC06E25-5DAF-BE93-AA37-C97608AB4BE1</tableSpace>
+<existingIndex>B5E3DDBC-639C-E3DA-61C6-46CFCDBAA386</existingIndex>
+<indexSegment>6CF89F31-1E29-9F32-8EE3-FB7C3E8B88BF</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

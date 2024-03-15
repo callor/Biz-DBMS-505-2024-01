@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9CB2FB2-9B03-FC32-F703-8539D1E975C5" name="TBL ADDR HOBBY">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>28B5D07F-D55C-DD72-0FA4-D85A22F26146</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="R ACODE" id="E37EA92C-D368-87B8-AA70-F37C8E64FD4D">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>43444D5A-CBE3-93F5-BEEC-7D3B7130C799</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<referedAttribute>60FAB8D7-7F86-BC32-B9D7-74D3FBFB46AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="R HCODE" id="67CD9EB0-6112-B9AC-0927-F48C11CA382E">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>B0AC61B3-8378-BAED-DC5A-D71EA2FE7374</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<referedAttribute>7D030755-019C-5206-E010-83B7FCC9B2AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81AC86FA-2E9F-CFCF-C756-BD52E457E6C1" name="AH PK">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>E4B67F55-27CB-80A0-FF15-CFAD7C78F780</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E37EA92C-D368-87B8-AA70-F37C8E64FD4D</attributeRef>
+<attributeRef>67CD9EB0-6112-B9AC-0927-F48C11CA382E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

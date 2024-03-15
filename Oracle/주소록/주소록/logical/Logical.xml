@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C252F245-4FEA-6800-F1D6-173C805AF1C6" mainViewID="61BF4610-969D-D9BB-EB93-DCE0602F604E">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:05:39 UTC</createdTime>
+<ownerDesignName>주소록</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

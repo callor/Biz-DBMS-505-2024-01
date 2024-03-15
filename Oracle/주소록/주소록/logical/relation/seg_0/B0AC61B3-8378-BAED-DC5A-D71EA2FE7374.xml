@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_HOBBY" directorySegmentName="seg_0" id="B0AC61B3-8378-BAED-DC5A-D71EA2FE7374">
+<createdBy>callor</createdBy>
+<createdTime>2024-03-15 01:24:19 UTC</createdTime>
+<generatorID>9555A500-FBFE-6FA7-2EFA-1C72ADDF788E</generatorID>
+<ownerDesignName>주소록</ownerDesignName>
+<engineerTo>
+<item key="FD2A80AB-76CD-E7BE-FE12-A969DC8C7597" value="true"/>
+</engineerTo>
+<sourcePk>657FAF06-6081-7B85-03A8-DC7F90910F4E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3826D6F6-BFE7-77A0-E89F-6A8847EC910A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9CB2FB2-9B03-FC32-F703-8539D1E975C5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
