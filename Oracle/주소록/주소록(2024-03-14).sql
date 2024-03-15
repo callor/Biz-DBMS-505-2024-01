@@ -154,7 +154,16 @@ SELECT a_name,r_hcode, h_name FROM view_address
 WHERE h_name IN ('마술','사격','쇼핑','스쿼시');
 
 -- 취미가 '마술', '사격', '여행' 인 사람들의 참여 인원수를 계산하기
+SELECT r_hcode, h_name,count(*) FROM view_address
+WHERE h_name IN ('마술','사격','여행')
+GROUP BY r_hcode,h_name
+ORDER BY count(*) DESC;
 
+
+SELECT r_hcode, h_name,count(*) FROM view_address
+GROUP BY r_hcode,h_name
+HAVING h_name IN ('마술','사격','여행')
+ORDER BY count(*) DESC;
 
 
 
